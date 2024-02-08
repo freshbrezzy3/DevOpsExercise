@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo this is the main branch'
+                sh 'echo this is a test branch'
             }
         }
     }
